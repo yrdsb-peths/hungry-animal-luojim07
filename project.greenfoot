@@ -2,6 +2,7 @@
 class.Apple.image=apple.png
 class.Elephant.image=elephant.png
 class.MyWorld.image=background.jpg
+class.TitleScreen.image=wayne-morris-lall-banner.png
 dependency1.from=MyWorld
 dependency1.to=Label
 dependency1.type=UsesDependency
@@ -98,5 +99,5 @@ target6.y=0
 version=3.0.0
 width=1067
 world.lastInstantiated=TitleScreen
-xPosition=791
-yPosition=330
+xPosition=519
+yPosition=322
