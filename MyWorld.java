@@ -28,11 +28,11 @@ public class MyWorld extends World
         
         spawnApple();
     }
-        
-    public void gameOver()
+    
+    public void respawnWorld()
     {
-        Label gameOverLabel = new Label("Game Over", 100);
-        addObject(gameOverLabel, 300, 200);
+        Restart resWorld = new Restart();
+        Greenfoot.setWorld(resWorld);
     }
     
     public void increaseScore()
@@ -42,7 +42,7 @@ public class MyWorld extends World
         
         if(score % 5 == 0)
         {
-            level += 1;
+            level += 0.5;
         }
     }
     
