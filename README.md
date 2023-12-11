@@ -14,3 +14,5 @@ This particular repository is the starting template for the Hungry Elephant tuto
 [Part 3: Final Touches](https://youtu.be/GT-eFwa4Abc)
 
 Fun!
+
+I updated my game to have a restart screen, where after you lose, you can choose to press space to restart and play again, or wait 5 seconds to go back to the title screen.
